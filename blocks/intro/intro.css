@@ -1,0 +1,50 @@
+.intro {
+  margin: 92px auto;
+  max-width: 984px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    margin: 88px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    margin: 64px 16px;
+  }
+}
+
+.intro__title {
+  max-width: 690px;
+  margin: 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.1;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    font-size: 32px;
+  }
+}
+
+.intro__text {
+  max-width: 690px;
+  margin: 40px 0 33px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.intro__list-item {
+  max-width: 690px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.intro__list-item-number {
+  font-weight: 400;
+}
