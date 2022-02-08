@@ -1,0 +1,12 @@
+.place__link-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+@media screen and (max-width: 767px) {
+  .place__link-box {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

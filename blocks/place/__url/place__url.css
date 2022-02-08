@@ -1,0 +1,14 @@
+.place__url {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+  margin: 0 0 12px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__url {
+    line-height: 1;
+  }
+}

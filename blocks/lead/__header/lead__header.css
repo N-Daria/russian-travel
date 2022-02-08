@@ -1,0 +1,12 @@
+
+.lead__header {
+  max-width: 720px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__header {
+    max-width: 288px;
+  }
+}
