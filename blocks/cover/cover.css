@@ -1,5 +1,5 @@
 .cover {
-  background-image: url(/images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   max-width: 1184px;
   max-height: 740px;
@@ -77,8 +77,13 @@
     font-size: 32px;
     line-height: 1.1;
     max-width: 254px;
-    margin: 0 auto x;
+    margin: 0 auto 16px;
   }
+}
+
+.cover__link {
+  color: white;
+  text-decoration: none;
 }
 
 .cover__subtitle {
