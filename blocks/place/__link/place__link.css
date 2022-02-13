@@ -2,7 +2,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
-  text-decoration-line: underline;
-  color: white;
-  margin: 0 0 32px;
+  text-decoration: underline;
+  width: fit-content;
+  margin: 0;
 }

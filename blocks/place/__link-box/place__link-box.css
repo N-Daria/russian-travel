@@ -1,7 +1,6 @@
 .place__link-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
+  display: grid;
+  align-content: end;
 }
 
 @media screen and (max-width: 767px) {
