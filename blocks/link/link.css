@@ -1,8 +1,10 @@
 .link {
   text-decoration: none;
   color: inherit;
+  transition: opacity 1s linear 0.5s;
 }
 
 .link:hover {
   opacity: 0.8;
+  transition: opacity 1s linear 0.3s;
 }

@@ -5,7 +5,6 @@
 
 @media screen and (max-width: 767px) {
   .place__link-box {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 28px 16px 32px;
   }
 }

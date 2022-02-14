@@ -1,7 +1,7 @@
 .place__text {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.63;
+  line-height: 1.62;
 }
 
 .place__text:last-child {
@@ -10,14 +10,23 @@
 
 @media screen and (max-width: 767px) {
   .place__text {
-    margin: 32px 16px 25px;
+    margin: 30px 16px 25px;
+  }
+
+  .place__text:first-child {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__text {
+    margin: 0 0 25px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__text {
     font-size: 16px;
-    margin-bottom: 25px;
   }
 }
 

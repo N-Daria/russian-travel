@@ -3,3 +3,9 @@
   max-width: 984px;
   width: 100%;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__image-block {
+    max-width: 928px;
+  }
+}

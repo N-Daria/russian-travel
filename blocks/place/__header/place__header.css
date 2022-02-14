@@ -9,6 +9,7 @@
   .place__header {
     font-size: 42px;
     line-height: 1.1;
+    max-width: 330px;
   }
 }
 
