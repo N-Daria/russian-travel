@@ -29,6 +29,7 @@
 @import url(../blocks/gallery/__list/gallery__list.css);
 @import url(../blocks/gallery/__photo/gallery__photo.css);
 
+@import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__header/place__header.css);
 @import url(../blocks/place/__img/place__img.css);

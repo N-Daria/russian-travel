@@ -3,8 +3,8 @@
 }
 
 @media screen and (max-width: 767px) {
-  .place {
-    margin: 0 auto 60px;
+  .places {
+    margin-bottom: 60px;
   }
 }
 
@@ -12,23 +12,21 @@
   .place {
     display: grid;
     grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
-    max-width: 984px;
-    margin: 0 auto 80px;
+    margin-bottom: 80px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-    margin: 0 24px 50px;
     gap: 44px 28px;
+    margin-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
     gap: 48px 32px;
-    max-width: 928px;
-    margin: 0 auto 62px;
+    margin-bottom: 62px;
   }
 }
 
