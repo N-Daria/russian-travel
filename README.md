@@ -8,7 +8,8 @@
 ## Используемые технологии
  1. HTML5, CSS3;
  2. Адаптивная верстка;
- 3. Flexbox, grid.
+ 3. Flexbox, grid;
+ 4. БЭМ-методология.
 
 <p align="center">
   <img src="images/Скриншот.png" />
